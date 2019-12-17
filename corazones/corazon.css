@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+}
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+span{font-size:60px;
+    color:#ff00b3;
+    padding:6px;
+    opacity:0.8;
+}
+
+span:hover,  span:hover~span {
+    color: #cc0000;
+    transition: 0.8s; 
+}
+
+.active {
+    color: #cc0000; 
+}
+
+
+
+
+
